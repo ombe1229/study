@@ -73,3 +73,4 @@ def get_factors(n):
         d = pollard_rho(n)
         l.append(d)
         n //= d
+    return l
